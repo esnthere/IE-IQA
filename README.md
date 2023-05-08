@@ -1,5 +1,5 @@
 # IE-IQA: Intelligibility Enriched Generalizable No-Reference Image Quality Assessment
-This is the source code for [IE-IQA: Intelligibility Enriched Generalizable No-Reference Image Quality Assessment](https://www.frontiersin.org/articles/10.3389/fnins.2021.739138/full).![IE-IQA Framework](https://github.com/esnthere/IEIT/blob/main/framework.png)
+This is the source code for [IE-IQA: Intelligibility Enriched Generalizable No-Reference Image Quality Assessment](https://www.frontiersin.org/articles/10.3389/fnins.2021.739138/full).![IE-IQA Framework](https://github.com/esnthere/IE-IQA/blob/main/framework.png)
 
 ## Dependencies and Installation
 Pytorch: 1.8.1  
