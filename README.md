@@ -11,7 +11,7 @@ CUDA: 10.2
    To ensure high speed, save images and lables of each dataset with 'mat' files. Only need to run '**data_preparation_example.py**' once for each dataset.
    
 ### 2. Load pre-trained weight for test  
-   The model pre-trained on KonIQ-10k is '**IEIQA_koniq.pt**'. The dataset are randomly splitted several times during training, and the released model is obtained from the first split. Please run '**test_example_of_koniq.py**' to make both cross-dataset and intra-dataset.  The model file '**my_efficientnet.py**' and '**my_efficientnet_ie_feature.py**' is modified from open accessed source code of [EfficientNet](https://github.com/lukemelas/EfficientNet-PyTorch/tree/master/efficientnet_pytorch). 
+   The model pre-trained on KonIQ-10k is '**IEIQA.pt**'. The dataset are randomly splitted several times during training, and the released model is obtained from the first split. Please run '**test_example.py**' to make both cross-dataset and intra-dataset.  The model file '**my_efficientnet.py**' and '**my_efficientnet_ie_feature.py**' is modified from open accessed source code of [EfficientNet](https://github.com/lukemelas/EfficientNet-PyTorch/tree/master/efficientnet_pytorch). 
    
    
 ## For train:  
