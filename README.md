@@ -16,7 +16,7 @@ CUDA: 10.2
    
 ## For train:  
 ### 1. Data preparation  
-   To ensure high speed, save images and lables of each dataset with 'mat' files. Only need to run '**data_preparation_example.py**' once for each dataset.
+   To ensure high speed, save images and lables of each dataset with 'mat' files. Only need to run '**data_preparation_example.py**'(change the parameter to save the image as 244×244) once for the training dataset.
    
 ### 2. Load pre-trained weight for test  
    Please run '**train_example_of_koniq.py**' to train the model. The training example can be found in '**run test_example_of_koniq.ipynb**'. The model is based on the ImageNet pre-traind weight of '**efficientnet-b0.pth**', which is obtained from [EfficientNet](https://github.com/lukemelas/EfficientNet-PyTorch/tree/master/efficientnet_pytorch). 
